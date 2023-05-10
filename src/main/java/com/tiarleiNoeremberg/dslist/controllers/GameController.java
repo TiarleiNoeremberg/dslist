@@ -22,8 +22,4 @@ public class GameController {
 		List<GameMinDTO> result = gameService.findAll();
 		return result;
 	}
-<<<<<<< HEAD
-//end code	
-=======
->>>>>>> b74f2af (Domain model)
 }

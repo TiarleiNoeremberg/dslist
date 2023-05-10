@@ -22,5 +22,4 @@ public class GameService {
 		//return dto;
 		return result.stream().map(x -> new GameMinDTO(x)).toList();
 	}
-
 }
