@@ -1,4 +1,6 @@
-package com.tiarleiNoeremberg.dslist.entities;
+package com.tiarleiNoeremberg.dslist.dto;
+
+import com.tiarleiNoeremberg.dslist.entities.Game;
 
 public class GameMinDTO {
 	
