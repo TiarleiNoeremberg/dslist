@@ -3,7 +3,7 @@
 public class ReplacementDTO {
 	
 	private Integer sourceIndex;
-	private Integer destinatioIndex;
+	private Integer destinationIndex;
 	
 	public Integer getSourceIndex() {
 		return sourceIndex;
@@ -11,10 +11,10 @@ public class ReplacementDTO {
 	public void setSourceIndex(Integer sourceIndex) {
 		this.sourceIndex = sourceIndex;
 	}
-	public Integer getDestinatioIndex() {
-		return destinatioIndex;
+	public Integer getDestinationIndex() {
+		return destinationIndex;
 	}
-	public void setDestinatioIndex(Integer destinatioIndex) {
-		this.destinatioIndex = destinatioIndex;
+	public void setDestinationIndex(Integer destinationIndex) {
+		this.destinationIndex = destinationIndex;
 	}
 }
