@@ -1,4 +1,13 @@
 # Intensivão Java Spring da DevSuperior
+
+# Tecnologias utilizadas
+- Linguagens - Java, Maven, UML e SQL
+- IDE - SpringToolSuite
+- Framework - SpringBoot
+- Bibliotecas - JPA, WEB, H2
+- Banco de dados - H2 e Postgresql
+- Outras tecnologias abordadas - Docker, Git, Heroku e Postman
+
 Constituido de um sistema Back-End de ranqueamento de jogos com Java e Spring Boot.
 O sistema foi concebido utilizando o padrão de camadas, onde temos uma camada de acesso a dados constituidas por nossas classes "entities", mapeadas com ORM (Mapeamento Objeto Relacional), acima uma camada de "services" onde estão estruturadas nossas regras de negócios, que por meio de classes DTO, transferem para uma classe "controllers" os dados solicitados por um possível sistema Front-End por meio da API Rest, utilizando requisições HTTP na linguagem JSON.
 Foi um projeto desafiante, repleto de tecnologias e boas práticas para um melhor produto final.
@@ -46,14 +55,6 @@ Neste ponto tive de adaptar meu projeto utilizando o Heroku ao invés do Railway
 
 ## Endpoints implementados no Postman
 ![Postman](https://github.com/TiarleiNoeremberg/dslist/blob/main/img/endpoint_postman.png?raw=true)
-
-# Tecnologias utilizadas
-- Linguagens - Java, Maven, UML e SQL
-- IDE - SpringToolSuite
-- Framework - SpringBoot
-- Bibliotecas - JPA, WEB, H2
-- Banco de dados - H2 e Postgresql
-- Outras tecnologias abordadas - Docker, Git, Heroku e Postman
 
 # Como executar o projeto
 - Pré-requisitos: Java 17
